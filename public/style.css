@@ -15,7 +15,12 @@ nav .brand-logo {
 nav ul a {
 	color: #556270;
 }
-
+#indexH1 {
+	color: white;
+}
+#indexP {
+	color: white;
+}
 
 
 
@@ -34,5 +39,8 @@ nav ul a {
 	}
 	ul:not(.browser-default) {
 		margin-right: 20%;
+	}
+	.indexContent {
+		padding-top: 15%;
 	}
 }

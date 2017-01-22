@@ -12,7 +12,10 @@ var Index = React.createClass({
 			<div className="indexContainer">
 				
 				<Navbar />
-
+				<div className="indexContent">
+					<h1 className="center" id="indexH1">Michael Edwards</h1>
+					<p className="center" id="indexP">Full Stack Web Developer</p>
+				</div>
 			</div>
 
 		);
