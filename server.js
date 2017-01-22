@@ -11,7 +11,11 @@ app.use(express.static("./public"));
 
 //Routes
 app.get("/", function(req, res) {
-	res.sendFile(__dirname + "/public/views/index.html");
+	res.sendFile(__dirname + "/public/index.html");
+});
+
+app.get("/portfolio", function(req, res) {
+	res.sendFile(__dirname + "/public/portfolio.html");
 });
 
 //Listener

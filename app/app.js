@@ -2,8 +2,8 @@
 var React = require("react");
 var ReactDOM = require("react-dom");
 
-// Include the main Main Component
-var Index = require("./components/Index");
+//Include routes
+var routes = require("./config/routes.js");
 
-// Render Index to app container
-ReactDOM.render(<Index />, document.getElementById("app"));
+// Render routes to app container
+ReactDOM.render(routes, document.getElementById("app"));
