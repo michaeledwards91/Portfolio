@@ -11,7 +11,7 @@ var Index = React.createClass({
 		return (
 			<div className="indexContainer">
 				
-				<Navbar />
+				{/* <Navbar /> */}
 				<div className="indexContent">
 					<h1 className="center" id="indexH1">Michael Edwards</h1>
 					<hr></hr>
