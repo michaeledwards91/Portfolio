@@ -26,13 +26,15 @@ var Portfolio = React.createClass({
 								    <div className="card-action">
 								      <div className="card-title activator grey-text text-darken-4"><a href="http://yum-yumrecipes.herokuapp.com/" className="deployedLink" target="_blank">Yum-Yum Recipes</a><i className="material-icons right">more_vert</i></div>
 								      <p className="cardActionP">
-								      <img className="githubImg" src="./images/githubicon.png" alt="GitHub"></img>
-								      <a className="githubLink" href="https://github.com/Rhyngoh/ProjectDionysus">GitHub</a>
+								      <a href="https://github.com/Rhyngoh/ProjectDionysus" alt="GitHub" target="_blank" className="cardActionA">
+								      <img className="githubImg" src="./images/githubicon.png" alt="GitHub"></img>GitHub
+								      {/*<a className="githubLink" href="https://github.com/Rhyngoh/ProjectDionysus">GitHub</a>*/}
+								      </a>
 								      </p>
 								    </div>
 								    <div className="card-reveal">
 								      <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
-								      <p>MySQL, Node, Express, and Handlebars application that displays recipes, ingredients, and instructions to the user and allows the user to save ingredients to a shopping list. Used Trello and Git/GitHub to collaborate with 3 other students. Personally designed and implemented code to style page and display results from database queries on the page.</p>
+								      <p className="cardRevealP">MySQL, Node, Express, and Handlebars application that displays recipes, ingredients, and instructions to the user and allows the user to save ingredients to a shopping list. Used Trello and Git/GitHub to collaborate with 3 other students. Personally designed and implemented code to style page and display results from database queries on the page.</p>
 								    </div>
 								  </div>
 								</div>

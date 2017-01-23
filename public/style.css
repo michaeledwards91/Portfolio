@@ -55,6 +55,11 @@ hr:after {
     color: #556270;
     text-transform: uppercase;
 }
+.cardActionA {
+	display: flex;
+	text-transform: none !important;
+}
+
 /*Media Queries*/
 
 @media only screen and (min-width: 601px) {
@@ -99,6 +104,13 @@ hr:after {
 		font-weight: 600;
     font-size: 26px;
     letter-spacing: -1px;
+	}
+	.cardRevealP {
+		padding-top: 5%;
+		color: #556270;
+		font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
 	}
 	.cardActionP {
 		display: flex;
