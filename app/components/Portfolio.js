@@ -45,12 +45,16 @@ var Portfolio = React.createClass({
 								      <img className="activator responsive-img" src="./images/typsyweather.png"></img>
 								    </div>
 								    <div className="card-action">
-								      <span className="card-title activator grey-text text-darken-4">Card Title<i className="material-icons right">more_vert</i></span>
-								      <p><a href="#">This is a link</a></p>
+								      <div className="card-title activator grey-text text-darken-4"><a href="http://floating-sea-67818.herokuapp.com/" className="deployedLink" target="_blank">Typsy Weather</a><i className="material-icons right">more_vert</i></div>
+								      <p className="cardActionP">
+									      <a href="https://github.com/RJRowland93/Drink_Weather" alt="GitHub" target="_blank" className="cardActionA">
+									      	<img className="githubImg" src="./images/githubicon.png" alt="GitHub"></img>GitHub
+									      </a>
+								      </p>
 								    </div>
 								    <div className="card-reveal">
-								      <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
-								      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+								      <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
+								      <p className="cardRevealP">Collaborated with a team of 3 other students to create an application utilizing HTML5/CSS3, JavaScript/jQuery, and two APIs. Personally wrote the code to query the weather and drink APIs and display corresponding information on the page. Presented project with team to instructors, staff, and visiting employers.</p>
 								    </div>
 								  </div>
 								</div>
