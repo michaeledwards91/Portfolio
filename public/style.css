@@ -88,7 +88,20 @@ hr:after {
 	.card .card-image img {
 		max-height: 310px;
 	}
+	.githubImg {
+		max-height: 20px;
+	}
 	.githubLink {
 		padding-left: 10px;
+		text-transform: none !important;
+	}
+	.deployedLink {
+		font-weight: 600;
+    font-size: 26px;
+    letter-spacing: -1px;
+	}
+	.cardActionP {
+		display: flex;
+		margin-left: 10px;
 	}
 }
