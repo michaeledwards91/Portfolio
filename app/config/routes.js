@@ -21,23 +21,16 @@ var IndexRoute = router.IndexRoute;
 // Reference the high-level components
 var Index = require("../components/Index");
 var Portfolio = require("../components/Portfolio");
-
+var Contact = require("../components/Contact");
 
 // Export the Routes
 module.exports = (
 
   // The high level component is the Router component
   <Router history={hashHistory}>
-    <Route path="/" component={Index}>
-
-      {/* If user selects Info or Chat show the appropriate component */}
-      {/*<Route path="info" component={Info} />
-      <Route path="chat" component={Chat} />*/}
-      
-
-    </Route>
-    <Route path="/portfolio" component={Portfolio}>
-    </Route>
+    <Route path="/" component={Index} />
+    <Route path="/portfolio" component={Portfolio} />
+    <Route path="/contact" component={Contact} />
     <IndexRoute component={Index} />
   </Router>
 
