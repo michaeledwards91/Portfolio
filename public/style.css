@@ -79,13 +79,16 @@ input[type=text] {
 input[type=text]:focus:not([readonly]) {
 	border-bottom: 1px solid white;
 	box-shadow: 0 1px 0 0 white;
-	color: white;
+	color: black;
 }
 input[type=text]:focus:not([readonly])+label {
 	color: white;
 }
 .input-field label {
 	color: white;
+}
+#submitBtn {
+	width: 100%;
 }
 
 /*Media Queries*/
@@ -143,5 +146,17 @@ input[type=text]:focus:not([readonly])+label {
 	.cardActionP {
 		display: flex;
 		margin-left: 10px;
+	}
+	.contactContainer {
+		padding-top: 5%;
+	}
+	.contactIconContainer {
+		display: flex;
+		justify-content: space-around;
+	}
+	.contactIcon {
+		margin-top: 30%;
+		width: 135px;
+		height: 135px;
 	}
 }

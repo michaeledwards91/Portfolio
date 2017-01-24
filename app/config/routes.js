@@ -31,7 +31,9 @@ module.exports = (
     <Route path="/" component={Index} />
     <Route path="/portfolio" component={Portfolio} />
     <Route path="/contact" component={Contact} />
+    {/*
     <IndexRoute component={Index} />
+    */}
   </Router>
 
 );

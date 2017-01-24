@@ -4,13 +4,13 @@ $(document).ready(function() {
 	$(document).on("click", "#nameLabel", function() {
 		$("#nameInput").focus();
 	});
-	$(document).on("click", "emailLabel", function() {
+	$(document).on("click", "#emailLabel", function() {
 		$("#emailInput").focus();
 	});
-	$(document).on("click", "messageLabel", function() {
+	$(document).on("click", "#messageLabel", function() {
 		$("#messageInput").focus();
 	});
 
-	
+
 
 });
