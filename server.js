@@ -3,6 +3,9 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 
+//Include nodemailer transport
+var transport = require("./config/transport.js");
+
 //Express instance
 var app = express();
 
@@ -25,11 +28,20 @@ app.get("/", function(req, res) {
 	res.sendFile(__dirname + "/public/index.html");
 });
 
-//Route for node mailer
+//Route to handle form submission on contact page
 app.post("/api/mailer", function(req, res) {
-	console.log(req.body);
-	
-	res.redirect("/#/contact");
+
+	transport.sendMail({
+		from: "michael.edwards1991@gmail.com",
+		to: "michael.edwards1991@gmail.com",
+		subject: "Email from " + req.body.name + "! (from portfolio site)",
+		text: req.body.message
+	}, function(err, info) {
+		if (err) throw err;
+		console.log("info: ");
+		console.log(info);
+	});
+
 });
 
 //Listener
