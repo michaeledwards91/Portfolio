@@ -71,7 +71,7 @@ textarea.materialize-textarea:focus:not([readonly])+label {
 }
 
 input {
-	color: white;
+	/*color: white;*/
 }
 input[type=text] {
 	border-bottom: 1px solid white;
@@ -79,7 +79,7 @@ input[type=text] {
 input[type=text]:focus:not([readonly]) {
 	border-bottom: 1px solid white;
 	box-shadow: 0 1px 0 0 white;
-	color: black;
+	color: white;
 }
 input[type=text]:focus:not([readonly])+label {
 	color: white;
@@ -89,6 +89,9 @@ input[type=text]:focus:not([readonly])+label {
 }
 #submitBtn {
 	width: 100%;
+}
+.input-field .prefix.active {
+	color: white;
 }
 
 /*Media Queries*/

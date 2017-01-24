@@ -16,16 +16,19 @@ var Contact = React.createClass({
 							
 							<form action="/api/mailer" method="POST">
 								<div className="input-field col s12">
+									<i className="material-icons prefix">account_circle</i>
 	                <input type="text" name="name" id="nameInput"></input>
 	                <label htmlFor="name" id="nameLabel">Your Name</label>
 	            	</div>
 
 	            	<div className="input-field col s12">
+	            		<i className="material-icons prefix">info</i>
 	                <input type="text" name="email" id="emailInput"></input>
 	                <label htmlFor="email" id="emailLabel">Your Email Address</label>
 	            	</div>
 
 	            	<div className="input-field col s12">
+	            		<i className="material-icons prefix">note_add</i>
 	                <textarea className="materialize-textarea" name="message" id="messageInput"></textarea>
 	                <label htmlFor="message" id="messageLabel">Your Message</label>
             		</div>
