@@ -59,6 +59,34 @@ hr:after {
 	display: flex;
 	text-transform: none !important;
 }
+textarea.materialize-textarea {
+	border-bottom: 1px solid white;
+}
+textarea.materialize-textarea:focus:not([readonly]) {
+	border-bottom: 1px solid white;
+	color: white;
+}
+textarea.materialize-textarea:focus:not([readonly])+label {
+	color: white;
+}
+
+input {
+	color: white;
+}
+input[type=text] {
+	border-bottom: 1px solid white;
+}
+input[type=text]:focus:not([readonly]) {
+	border-bottom: 1px solid white;
+	box-shadow: 0 1px 0 0 white;
+	color: white;
+}
+input[type=text]:focus:not([readonly])+label {
+	color: white;
+}
+.input-field label {
+	color: white;
+}
 
 /*Media Queries*/
 
