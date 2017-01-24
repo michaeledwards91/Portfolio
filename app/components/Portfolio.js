@@ -58,8 +58,34 @@ var Portfolio = React.createClass({
 								    </div>
 								  </div>
 								</div>
+						</div> {/*End of first row*/}
 
-						</div>
+						<div className="row">
+
+							<div className="col s12 m6">
+								  <div className="card sticky-action hoverable">
+								    <div className="card-image waves-effect waves-block waves-light">
+								      <img className="activator responsive-img" src="./images/bamazon.png"></img>
+
+								    </div>
+								    
+								    <div className="card-action">
+								      <div className="card-title activator grey-text text-darken-4"><a href="https://github.com/michaeledwards91/Bamazon" className="deployedLink" target="_blank">Bamazon</a><i className="material-icons right">more_vert</i></div>
+								      <p className="cardActionP">
+								      <a href="https://github.com/michaeledwards91/Bamazon" alt="GitHub" target="_blank" className="cardActionA">
+								      <img className="githubImg" src="./images/githubicon.png" alt="GitHub"></img>GitHub
+								      {/*<a className="githubLink" href="https://github.com/Rhyngoh/ProjectDionysus">GitHub</a>*/}
+								      </a>
+								      </p>
+								    </div>
+								    <div className="card-reveal">
+								      <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
+								      <p className="cardRevealP">Bamazon is a mock Amazon CLI application built as an exercise in using Node.js and MySQL that allows users to see fake product information. There is a customer app that allows the user to 'purchase' items and a manager app that allows the user to view and edit inventory. Bamazon is supplemented by the inquirer (to handle user inputs), mysql (to communicate with the database), and cli-table (to beautify data) npm packages. </p>
+								    </div>
+								  </div>
+								</div>
+
+						</div> {/*End of second row*/}
 					</div>
 				</div>
 			</div>
