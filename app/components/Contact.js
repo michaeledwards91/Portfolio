@@ -34,7 +34,7 @@ var Contact = React.createClass({
             		</div>
 
 
-	            	<button className="btn waves-effect waves-light" type="submit" name="action" id="submitBtn">Submit
+	            	<button className="btn waves-effect waves-light" type="submit" name="action" id="submitBtn">Send Email
 		            <i className="material-icons right">send</i>
 		            </button>
 							</form>

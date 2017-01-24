@@ -87,9 +87,6 @@ input[type=text]:focus:not([readonly])+label {
 .input-field label {
 	color: white;
 }
-#submitBtn {
-	width: 100%;
-}
 .input-field .prefix.active {
 	color: white;
 }
@@ -162,4 +159,12 @@ input[type=text]:focus:not([readonly])+label {
 		width: 135px;
 		height: 135px;
 	}
+	.input-field {
+		margin-bottom: 1rem;
+	}
+	#submitBtn {
+		width: 91%;
+    position: relative;
+    left: 8%;
+	}	
 }
