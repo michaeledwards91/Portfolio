@@ -45,7 +45,7 @@ var Portfolio = React.createClass({
 								      <img className="activator responsive-img" src="./images/typsyweather.png"></img>
 								    </div>
 								    <div className="card-action">
-								      <div className="card-title activator grey-text text-darken-4"><a href="http://floating-sea-67818.herokuapp.com/" className="deployedLink" target="_blank">Typsy Weather</a><i className="material-icons right">more_vert</i></div>
+								      <div className="card-title activator grey-text text-darken-4"><a href="http://tipsyweather.herokuapp.com/" className="deployedLink" target="_blank">Tipsy Weather</a><i className="material-icons right">more_vert</i></div>
 								      <p className="cardActionP">
 									      <a href="https://github.com/RJRowland93/Drink_Weather" alt="GitHub" target="_blank" className="cardActionA">
 									      	<img className="githubImg" src="./images/githubicon.png" alt="GitHub"></img>GitHub
