@@ -274,6 +274,9 @@ input[type=text]:focus:not([readonly])+label {
 	.card .card-image img {
     max-height: 245px;
 	}
+	.cardRevealP {
+		padding-bottom: 15%;
+	}
 }
 
 
