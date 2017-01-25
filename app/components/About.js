@@ -15,7 +15,7 @@ var About = React.createClass({
 				<div className="container">
 					<div className="row">
 						{/*Content*/}
-						<div className="col s12 m10 push-m1">
+						<div className="col s12 m10 push-m1 aboutCol">
 							<img className="circle left" src="./images/meface2.png" id="meFaceImg"></img>
 							<h3 id="hi">Hi, I'm Michael.</h3>
 							<p className="aboutP">As a person whose hobbies have always involved computer screens, it was only natural for me to develop a passion for web development. In October of 2016, I decided to turn my passion into a career and enrolled in UT Austin's Coding Bootcamp. I love the feeling of overcoming the challenges of development and plan to keep learning and improving as a developer for many years!</p>
