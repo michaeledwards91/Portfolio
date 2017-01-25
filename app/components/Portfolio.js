@@ -18,7 +18,6 @@ var Portfolio = React.createClass({
 								  <div className="card sticky-action hoverable">
 								    <div className="card-image waves-effect waves-block waves-light">
 								      <img className="activator responsive-img" src="./images/yumyum3.png"></img>
-
 								    </div>
 								    
 								    <div className="card-action">

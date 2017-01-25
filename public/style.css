@@ -367,4 +367,12 @@ input[type=text]:focus:not([readonly])+label {
         position: relative;
         left: 8%;
     }
+    .aboutContainer {
+        padding-top: 5%;
+    }
+    #meFaceImg {
+        width: 200px;
+        height: 200px;
+        margin-right: 3%;
+    }
 }
