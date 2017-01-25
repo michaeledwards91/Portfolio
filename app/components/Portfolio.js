@@ -16,7 +16,7 @@ var Portfolio = React.createClass({
 					<div className="container">
 						<div className="row">
 
-								<div className="col s12 m6">
+								<div className="col s12 m10 l6 push-m1">
 								  <div className="card sticky-action hoverable">
 								    <div className="card-image waves-effect waves-block waves-light">
 								      <img className="activator responsive-img" src="./images/yumyum3.png"></img>
@@ -39,7 +39,7 @@ var Portfolio = React.createClass({
 								  </div>
 								</div>
 								
-								<div className="col s12 m6">
+								<div className="col s12 m10 l6 push-m1">
 								  <div className="card sticky-action hoverable">
 								    <div className="card-image waves-effect waves-block waves-light">
 								      <img className="activator responsive-img" src="./images/typsyweather.png"></img>
@@ -62,7 +62,7 @@ var Portfolio = React.createClass({
 
 						<div className="row">
 
-							<div className="col s12 m6">
+							<div className="col s12 m10 l6 push-m1">
 							  <div className="card sticky-action hoverable">
 							    <div className="card-image waves-effect waves-block waves-light">
 							      <img className="activator responsive-img" src="./images/bamazon.png"></img>
@@ -85,7 +85,7 @@ var Portfolio = React.createClass({
 							  </div>
 							</div>
 
-							<div className="col s12 m6">
+							<div className="col s12 m10 l6 push-m1">
 							  <div className="card sticky-action hoverable">
 							    <div className="card-image waves-effect waves-block waves-light">
 							      <img className="activator responsive-img" src="./images/starwarsrpg.png"></img>
