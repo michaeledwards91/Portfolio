@@ -1,32 +1,33 @@
 body {
-	background-color: #F38630;
+    background-color: #F38630;
 }
 /*Navbar styles*/
+
 nav {
-	background-color: white;
+    background-color: white;
 }
 nav .brand-logo {
-	margin-left: 15%;
-	font-size: 2.5rem;
-	font-weight: 600;
-	letter-spacing: 1.5px;
-	color: #556270;
+    margin-left: 15%;
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    color: #556270;
 }
 nav ul a {
-	color: #556270;
+    color: #556270;
 }
 #indexH1 {
-	color: white;
-  letter-spacing: 8.5px;
-  font-weight: 900;
-  font-size: 85px;
-  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    color: white;
+    letter-spacing: 8.5px;
+    font-weight: 900;
+    font-size: 85px;
+    text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
 }
 #indexP {
-	color: white;
-	margin-top: 25px;
-	font-size: 14px;
-  letter-spacing: .5rem;
+    color: white;
+    margin-top: 25px;
+    font-size: 14px;
+    letter-spacing: .5rem;
 }
 hr {
     padding: 0;
@@ -46,327 +47,324 @@ hr:after {
     background: #F38630;
 }
 .card {
-	background-color: white;
+    background-color: white;
 }
 .card .card-reveal {
-	background-color: white;
+    background-color: white;
 }
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
     color: #556270;
     text-transform: uppercase;
 }
 .cardActionA {
-	display: flex;
-	text-transform: none !important;
+    display: flex;
+    text-transform: none !important;
 }
 textarea.materialize-textarea {
-	border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 textarea.materialize-textarea:focus:not([readonly]) {
-	border-bottom: 1px solid white;
-	color: white;
+    border-bottom: 1px solid white;
+    color: white;
 }
 textarea.materialize-textarea:focus:not([readonly])+label {
-	color: white;
+    color: white;
 }
-
 input {
-	/*color: white;*/
+    /*color: white;*/
 }
 input[type=text] {
-	border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 input[type=text]:focus:not([readonly]) {
-	border-bottom: 1px solid white;
-	box-shadow: 0 1px 0 0 white;
-	color: white;
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+    color: white;
 }
 input[type=text]:focus:not([readonly])+label {
-	color: white;
+    color: white;
 }
 .input-field label {
-	color: white;
+    color: white;
 }
 .input-field .prefix.active {
-	color: white;
+    color: white;
 }
-
 /*Media Queries*/
-
 /*Tiny screens*/
+
 @media only screen and (max-width: 600px) {
-	#nav-mobile {
-		display: flex;
-		justify-content: space-around;
-	}
-	nav {
-		height: 100px;
-		line-height: 100px;
-	}
-	nav ul a {
-		font-size: 1.5rem;
-		padding-left: 24%;
-    padding-right: 24%;
-    font-weight: 500;
-	}
-	nav ul li {
-		width: 40%;
-    text-align: center;
-	}
-	.brand-logo {
-		display: none;
-	}
-	.indexContent {
-		padding-top: 13%;
-	}
-	.portfolioContent {
-		padding-top: 10%;
-		padding-bottom: 10%;
-	}
-	.card .card-action {
-		padding: 0px;
-    padding-left: 10px;
-    padding-bottom: 1px;
-	}
-	.card .card-title {
-		padding: 10px;
-	}
-	.card .card-image img {
-		max-height: 310px;
-	}
-	.githubImg {
-		max-height: 20px;
-	}
-	.githubLink {
-		padding-left: 10px;
-		text-transform: none !important;
-	}
-	.deployedLink {
-		font-weight: 600;
-    font-size: 26px;
-    letter-spacing: -1px;
-	}
-	.cardRevealP {
-		padding-top: 5%;
-		color: #556270;
-		font-size: 17px;
-    font-weight: 600;
-    letter-spacing: -0.5px;
-	}
-	.cardActionP {
-		display: flex;
-		margin-left: 10px;
-	}
-	.contactContainer {
-		padding-top: 5%;
-	}
-	.contactIconContainer {
-		display: flex;
-		justify-content: space-around;
-	}
-	.contactIcon {
-		margin-top: 85%;
-		width: 90px;
-    height: 90px;
-	}
-	.input-field {
-		margin-bottom: 1rem;
-	}
-	#submitBtn {
-		width: 91%;
-    position: relative;
-    left: 8%;
-	}	
+    #nav-mobile {
+        display: flex;
+        justify-content: space-around;
+    }
+    nav {
+        height: 100px;
+        line-height: 100px;
+    }
+    nav ul a {
+        font-size: 1.5rem;
+        padding-left: 24%;
+        padding-right: 24%;
+        font-weight: 500;
+    }
+    nav ul li {
+        width: 40%;
+        text-align: center;
+    }
+    .brand-logo {
+        display: none;
+    }
+    .indexContent {
+        padding-top: 13%;
+    }
+    .portfolioContent {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .card .card-action {
+        padding: 0px;
+        padding-left: 10px;
+        padding-bottom: 1px;
+    }
+    .card .card-title {
+        padding: 10px;
+    }
+    .card .card-image img {
+        max-height: 310px;
+    }
+    .githubImg {
+        max-height: 20px;
+    }
+    .githubLink {
+        padding-left: 10px;
+        text-transform: none !important;
+    }
+    .deployedLink {
+        font-weight: 600;
+        font-size: 26px;
+        letter-spacing: -1px;
+    }
+    .cardRevealP {
+        padding-top: 5%;
+        color: #556270;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+    .cardActionP {
+        display: flex;
+        margin-left: 10px;
+    }
+    .contactContainer {
+        padding-top: 5%;
+    }
+    .contactIconContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .contactIcon {
+        margin-top: 85%;
+        width: 90px;
+        height: 90px;
+    }
+    .input-field {
+        margin-bottom: 1rem;
+    }
+    #submitBtn {
+        width: 91%;
+        position: relative;
+        left: 8%;
+    }
 }
-
 /*Small Screens*/
+
 @media only screen and (min-width: 601px) {
-	nav {
-		height: 100px;
-		line-height: 100px;
-	}
-	nav ul a {
-		font-size: 1.5rem;
-		padding-left: 24%;
-    padding-right: 24%;
-    font-weight: 500;
-	}
-	#nav-mobile {
-		display: flex;
-		justify-content: space-around;
-	}
-	nav ul li {
-		width: 40%;
-	  text-align: center;
-	}
-	.brand-logo {
-		display: none;
-	}
-	.indexContent {
-		padding-top: 13%;
-	}
-	.portfolioContent {
-		padding-top: 10%;
-		padding-bottom: 10%;
-	}
-	.card .card-action {
-		padding: 0px;
-    padding-left: 10px;
-    padding-bottom: 1px;
-	}
-	.card .card-title {
-		padding: 10px;
-	}
-	.card .card-image img {
-		max-height: 310px;
-	}
-	.githubImg {
-		max-height: 20px;
-	}
-	.githubLink {
-		padding-left: 10px;
-		text-transform: none !important;
-	}
-	.deployedLink {
-		font-weight: 600;
-    font-size: 26px;
-    letter-spacing: -1px;
-	}
-	.cardRevealP {
-		padding-top: 5%;
-		color: #556270;
-		font-size: 17px;
-    font-weight: 600;
-    letter-spacing: -0.5px;
-	}
-	.cardActionP {
-		display: flex;
-		margin-left: 10px;
-	}
-	.contactContainer {
-		padding-top: 5%;
-	}
-	.contactIconContainer {
-		display: flex;
-		justify-content: space-around;
-	}
-	.contactIcon {
-		margin-top: 85%;
-		width: 90px;
-    height: 90px;
-	}
-	.input-field {
-		margin-bottom: 1rem;
-	}
-	#submitBtn {
-		width: 91%;
-    position: relative;
-    left: 8%;
-	}	
+    nav {
+        height: 100px;
+        line-height: 100px;
+    }
+    nav ul a {
+        font-size: 1.5rem;
+        padding-left: 24%;
+        padding-right: 24%;
+        font-weight: 500;
+    }
+    #nav-mobile {
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li {
+        width: 40%;
+        text-align: center;
+    }
+    .brand-logo {
+        display: none;
+    }
+    .indexContent {
+        padding-top: 13%;
+    }
+    .portfolioContent {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .card .card-action {
+        padding: 0px;
+        padding-left: 10px;
+        padding-bottom: 1px;
+    }
+    .card .card-title {
+        padding: 10px;
+    }
+    .card .card-image img {
+        max-height: 310px;
+    }
+    .githubImg {
+        max-height: 20px;
+    }
+    .githubLink {
+        padding-left: 10px;
+        text-transform: none !important;
+    }
+    .deployedLink {
+        font-weight: 600;
+        font-size: 26px;
+        letter-spacing: -1px;
+    }
+    .cardRevealP {
+        padding-top: 5%;
+        color: #556270;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+    .cardActionP {
+        display: flex;
+        margin-left: 10px;
+    }
+    .contactContainer {
+        padding-top: 5%;
+    }
+    .contactIconContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+    .contactIcon {
+        margin-top: 85%;
+        width: 90px;
+        height: 90px;
+    }
+    .input-field {
+        margin-bottom: 1rem;
+    }
+    #submitBtn {
+        width: 91%;
+        position: relative;
+        left: 8%;
+    }
 }
-
 /*Large Screens*/
+
 @media only screen and (min-width: 995px) {
-	#nav-mobile{
-		float: right;
-    margin-right: 10%;
-	}
-	.card .card-image img {
-    max-height: 245px;
-	}
-	.cardRevealP {
-		padding-bottom: 15%;
-	}
+    #nav-mobile {
+        float: right;
+        margin-right: 10%;
+    }
+    .card .card-image img {
+        max-height: 245px;
+    }
+    .cardRevealP {
+        padding-bottom: 15%;
+    }
 }
-
-
 /*Larger Screens*/
+
 @media only screen and (min-width: 1260px) {
-	nav {
-		height: 100px;
-		line-height: 100px;
-	}
-	nav ul a {
-		font-size: 1.5rem;
-		padding-left: 24%;
-    padding-right: 24%;
-    font-weight: 500;
-	}
-	ul:not(.browser-default) {
-		margin-right: 20%;
-	}
-	.indexContent {
-		padding-top: 13%;
-	}
-	.portfolioContent {
-		padding-top: 8%;
-		padding-bottom: 10%;
-	}
-	.card {
-		max-width: 480px;
-	}
-	.card .card-action {
-		padding: 0px;
-    padding-left: 10px;
-    padding-bottom: 1px;
-	}
-	.card .card-title {
-		padding: 10px;
-	}
-	.card .card-image img {
-		max-height: 310px;
-	}
-	.githubImg {
-		max-height: 20px;
-	}
-	.githubLink {
-		padding-left: 10px;
-		text-transform: none !important;
-	}
-	.deployedLink {
-		font-weight: 600;
-    font-size: 26px;
-    letter-spacing: -1px;
-	}
-	.cardRevealP {
-		padding-top: 5%;
-		color: #556270;
-		font-size: 17px;
-    font-weight: 600;
-    letter-spacing: -0.5px;
-	}
-	.cardActionP {
-		display: flex;
-		margin-left: 10px;
-	}
-	#formWrapper {
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-	#contactIconWrapper {
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-	.contactContainer {
-		padding-top: 5%;
-	}
-	.contactIconContainer {
-		display: flex;
-		justify-content: space-around;
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-	.contactIcon {
-		margin-top: 30%;
-		width: 135px;
-		height: 135px;
-	}
-	.input-field {
-		margin-bottom: 1rem;
-	}
-	#submitBtn {
-		width: 91%;
-    position: relative;
-    left: 8%;
-	}	
+    nav {
+        height: 100px;
+        line-height: 100px;
+    }
+    nav ul a {
+        font-size: 1.5rem;
+        padding-left: 24%;
+        padding-right: 24%;
+        font-weight: 500;
+    }
+    ul:not(.browser-default) {
+        margin-right: 20%;
+    }
+    .indexContent {
+        padding-top: 13%;
+    }
+    .portfolioContent {
+        padding-top: 8%;
+        padding-bottom: 10%;
+    }
+    .card {
+        max-width: 480px;
+    }
+    .card .card-action {
+        padding: 0px;
+        padding-left: 10px;
+        padding-bottom: 1px;
+    }
+    .card .card-title {
+        padding: 10px;
+    }
+    .card .card-image img {
+        max-height: 310px;
+    }
+    .githubImg {
+        max-height: 20px;
+    }
+    .githubLink {
+        padding-left: 10px;
+        text-transform: none !important;
+    }
+    .deployedLink {
+        font-weight: 600;
+        font-size: 26px;
+        letter-spacing: -1px;
+    }
+    .cardRevealP {
+        padding-top: 5%;
+        color: #556270;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+    .cardActionP {
+        display: flex;
+        margin-left: 10px;
+    }
+    #formWrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #contactIconWrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contactContainer {
+        padding-top: 5%;
+    }
+    .contactIconContainer {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .contactIcon {
+        margin-top: 30%;
+        width: 135px;
+        height: 135px;
+    }
+    .input-field {
+        margin-bottom: 1rem;
+    }
+    #submitBtn {
+        width: 91%;
+        position: relative;
+        left: 8%;
+    }
 }

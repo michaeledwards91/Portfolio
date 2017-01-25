@@ -38,13 +38,11 @@ app.post("/api/mailer", function(req, res) {
 		text: req.body.message
 	}, function(err, info) {
 		if (err) throw err;
-		console.log("info: ");
-		console.log(info);
 
+		//Redirect back to contact page after 3 seconds
 		setTimeout(function() {
 			res.redirect("/#/contact");
 		}, 3000);
-		// res.redirect("/#/contact");
 	});
 
 });

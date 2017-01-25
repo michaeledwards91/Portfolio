@@ -10,8 +10,6 @@ var Portfolio = React.createClass({
 	render: function() {
 		return (
 			<div className="portfolioContainer">
-				{/* <Navbar /> */}
-
 				<div className="portfolioContent">
 					<div className="container">
 						<div className="row">
@@ -28,7 +26,6 @@ var Portfolio = React.createClass({
 								      <p className="cardActionP">
 								      <a href="https://github.com/Rhyngoh/ProjectDionysus" alt="GitHub" target="_blank" className="cardActionA">
 								      <img className="githubImg" src="./images/githubicon.png" alt="GitHub"></img>GitHub
-								      {/*<a className="githubLink" href="https://github.com/Rhyngoh/ProjectDionysus">GitHub</a>*/}
 								      </a>
 								      </p>
 								    </div>
@@ -74,7 +71,6 @@ var Portfolio = React.createClass({
 							      <p className="cardActionP">
 							      <a href="https://github.com/michaeledwards91/Bamazon" alt="GitHub" target="_blank" className="cardActionA">
 							      <img className="githubImg" src="./images/githubicon.png" alt="GitHub"></img>GitHub
-							      {/*<a className="githubLink" href="https://github.com/Rhyngoh/ProjectDionysus">GitHub</a>*/}
 							      </a>
 							      </p>
 							    </div>
@@ -96,7 +92,6 @@ var Portfolio = React.createClass({
 							      <p className="cardActionP">
 							      <a href="https://github.com/michaeledwards91/week-4-game" alt="GitHub" target="_blank" className="cardActionA">
 							      <img className="githubImg" src="./images/githubicon.png" alt="GitHub"></img>GitHub
-							      {/*<a className="githubLink" href="https://github.com/Rhyngoh/ProjectDionysus">GitHub</a>*/}
 							      </a>
 							      </p>
 							    </div>
