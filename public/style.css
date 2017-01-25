@@ -1,6 +1,9 @@
 body {
     background-color: #F38630;
 }
+footer.page-footer {
+    background-color: #FA6900;
+}
 /*Navbar styles*/
 
 nav {
@@ -341,23 +344,17 @@ input[type=text]:focus:not([readonly])+label {
         padding-left: 50px;
         padding-right: 50px;
     }
-    #contactIconWrapper {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
     .contactContainer {
         padding-top: 5%;
     }
     .contactIconContainer {
         display: flex;
         justify-content: space-around;
-        padding-left: 50px;
-        padding-right: 50px;
     }
     .contactIcon {
         margin-top: 30%;
-        width: 135px;
-        height: 135px;
+        width: 70px;
+        height: 70px;
     }
     .input-field {
         margin-bottom: 1rem;
