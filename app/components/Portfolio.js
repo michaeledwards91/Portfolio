@@ -3,6 +3,7 @@ var React = require("react");
 
 //Include child components
 var Navbar = require("./Navbar");
+var Footer = require("./Footer");
 
 //Create Portfolio Component
 var Portfolio = React.createClass({
@@ -104,6 +105,9 @@ var Portfolio = React.createClass({
 						</div> {/*End of second row*/}
 					</div>
 				</div>
+
+				<Footer />
+
 			</div>
 		);
 	}

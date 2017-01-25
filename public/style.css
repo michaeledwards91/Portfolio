@@ -375,4 +375,8 @@ input[type=text]:focus:not([readonly])+label {
         height: 200px;
         margin-right: 3%;
     }
+    .skillsIcon {
+        width: 100px;
+        height: 100px;
+    }
 }

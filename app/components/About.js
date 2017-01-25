@@ -4,6 +4,7 @@ var React = require("react");
 //Include child components
 var SkillsGroup = require("./SkillsGroup");
 var IconGroup = require("./IconGroup");
+var Footer = require("./Footer");
 
 //Create About component
 var About = React.createClass({
@@ -20,13 +21,15 @@ var About = React.createClass({
 							<p>
 
 								Nulla facilisis lorem eget feugiat porta. Nulla congue id enim eget interdum. Donec fringilla risus at elit tempus convallis. Sed tincidunt massa eu dapibus pharetra. Curabitur vestibulum nibh ut nulla malesuada, quis accumsan quam lobortis. Phasellus vitae turpis id dolor elementum tincidunt at eu erat. Praesent sed tellus vestibulum, dignissim felis eu, mollis lectus. Morbi faucibus blandit mattis. Vivamus et pharetra felis, id tincidunt augue.</p>
-								
+
 							<SkillsGroup />
-							<IconGroup />
 						</div>
 
 					</div>
 				</div>
+
+				<Footer />
+				
 			</div>
 		);
 	}

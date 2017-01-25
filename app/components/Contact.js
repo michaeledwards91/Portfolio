@@ -4,6 +4,7 @@ var React = require("react");
 //Include Child components
 var Navbar = require("./Navbar");
 var IconGroup = require("./IconGroup");
+var Footer = require("./Footer");
 
 //Create Contact component
 var Contact = React.createClass({
@@ -42,7 +43,7 @@ var Contact = React.createClass({
 
 						</div>
 					</div>
-
+					{/*
 					<div className="row">
 						<div className="col s12 m10 push-m1">
 
@@ -50,7 +51,11 @@ var Contact = React.createClass({
 
 						</div>
 					</div>
+					*/}
 				</div>
+
+				<Footer />
+
 			</div>
 		);
 	}
