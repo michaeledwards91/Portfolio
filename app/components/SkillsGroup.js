@@ -8,7 +8,7 @@ var SkillsGroup = React.createClass({
 
 				
 			<div className="skillsGroupContainer">
-				<h3 className="center">Skills</h3>
+				<h3 className="center" id="skillsH3">Skills</h3>
 
 				<div className="skillsIconsWrapper">
 					{/*HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, React.js, MongoDB, MySQL, Heroku, Materialize, Bootstrap, Git, Handlebars.js*/}

@@ -380,11 +380,19 @@ input[type=text]:focus:not([readonly])+label {
         margin-right: 3%;
     }
     .skillsIcon {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
+        padding: 2px;
     }
     #hi {
         letter-spacing: -2px;
+        font-weight: 700;
+    }
+    .skillsGroupContainer {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #skillsH3 {
         font-weight: 700;
     }
 }
