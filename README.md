@@ -1,2 +1,2 @@
-# Portfolio
-My Web Developer Portfolio
+# Michael Edwards
+## Web Developer Portfolio
