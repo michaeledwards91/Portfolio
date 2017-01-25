@@ -12,7 +12,7 @@ var Contact = React.createClass({
 			<div className="contactContainer">
 				<div className="container">
 					<div className="row">
-						<div className="col s12 m10 push-m1">
+						<div className="col s12 m10 push-m1" id="formWrapper">
 							
 							<form action="/api/mailer" method="POST">
 								<div className="input-field col s12">
@@ -43,7 +43,7 @@ var Contact = React.createClass({
 					</div>
 
 					<div className="row">
-						<div className="col s12 m10 push-m1 contactIconContainer">
+						<div className="col s12 m10 push-m1 contactIconContainer" id="contactIconWrapper">
 
 							<a href="https://www.linkedin.com/in/michaeledwards91"><img className="contactIcon" src="./images/linkedin-logo-lg-transparent.png" alt="LinkedIn"></img></a>
 

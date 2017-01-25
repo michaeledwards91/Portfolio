@@ -339,12 +339,22 @@ input[type=text]:focus:not([readonly])+label {
 		display: flex;
 		margin-left: 10px;
 	}
+	#formWrapper {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	#contactIconWrapper {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 	.contactContainer {
 		padding-top: 5%;
 	}
 	.contactIconContainer {
 		display: flex;
 		justify-content: space-around;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 	.contactIcon {
 		margin-top: 30%;
