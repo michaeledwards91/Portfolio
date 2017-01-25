@@ -3,6 +3,8 @@ body {
 }
 footer.page-footer {
     background-color: #FA6900;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 /*Navbar styles*/
 
@@ -99,6 +101,9 @@ input[type=text]:focus:not([readonly])+label {
     font-size: 23px;
     font-weight: 600;
     letter-spacing: -1px;
+}
+.footerRow {
+    margin-bottom: 0px;
 }
 /*Media Queries*/
 /*Tiny screens*/
@@ -350,6 +355,7 @@ input[type=text]:focus:not([readonly])+label {
     #formWrapper {
         padding-left: 50px;
         padding-right: 50px;
+        margin-bottom: 10%;
     }
     .contactContainer {
         padding-top: 5%;
@@ -394,5 +400,9 @@ input[type=text]:focus:not([readonly])+label {
     }
     #skillsH3 {
         font-weight: 700;
+    }
+    .input-field .prefix ~ textarea {
+        min-height: 150px;
+        font-size: 20px;
     }
 }
