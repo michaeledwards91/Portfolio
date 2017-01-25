@@ -54,7 +54,7 @@ var Portfolio = React.createClass({
 								    </div>
 								    <div className="card-reveal">
 								      <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
-								      <p className="cardRevealP">Collaborated with a team of 3 other students to create an application utilizing HTML5/CSS3, JavaScript/jQuery, and two APIs. Personally wrote the code to query the weather and drink APIs and display corresponding information on the page. Presented project with team to instructors, staff, and visiting employers.</p>
+								      <p className="cardRevealP">Uses JavaScript/jQuery, two APIs and HTML5/CSS3 to suggest drinks to the user based on a searched location. Built with a team of 3 other students from UT Austin's Coding Boot Camp. Personally wrote the code to query the weather and drink APIs and display corresponding information on the page. Presented project with team to instructors, staff, and visiting employers.</p>
 								    </div>
 								  </div>
 								</div>

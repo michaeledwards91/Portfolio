@@ -40,6 +40,11 @@ app.post("/api/mailer", function(req, res) {
 		if (err) throw err;
 		console.log("info: ");
 		console.log(info);
+
+		setTimeout(function() {
+			res.redirect("/#/contact");
+		}, 3000);
+		// res.redirect("/#/contact");
 	});
 
 });

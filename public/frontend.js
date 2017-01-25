@@ -15,9 +15,9 @@ $(document).ready(function() {
 		Materialize.toast("Thanks for contacting me!", 4000);
 
 		//Stop document from trying to reach route
-		setTimeout(function() {
-			window.stop();
-		}, 3000);
+		// setTimeout(function() {
+		// 	window.stop();
+		// }, 3000);
 	});
 
 });

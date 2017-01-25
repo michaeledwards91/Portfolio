@@ -112,6 +112,7 @@ input[type=text]:focus:not([readonly])+label {
 	}
 	.portfolioContent {
 		padding-top: 10%;
+		padding-bottom: 10%;
 	}
 	.card .card-action {
 		padding: 0px;
