@@ -3,6 +3,7 @@ var React = require("react");
 
 //Include Child components
 var Navbar = require("./Navbar");
+var IconGroup = require("./IconGroup");
 
 //Create Contact component
 var Contact = React.createClass({
@@ -43,13 +44,9 @@ var Contact = React.createClass({
 					</div>
 
 					<div className="row">
-						<div className="col s12 m10 push-m1 contactIconContainer" id="contactIconWrapper">
+						<div className="col s12 m10 push-m1">
 
-							<a href="https://www.linkedin.com/in/michaeledwards91"><img className="contactIcon" src="./images/linkedin-logo-lg-transparent.png" alt="LinkedIn"></img></a>
-
-							<a href="https://github.com/michaeledwards91"><img className="contactIcon" src="./images/github-logo-lg.png" alt="GitHub"></img></a>
-
-							<a href="http://stackoverflow.com/users/7038116/michael-edwards"><img className="contactIcon" src="./images/stackoverflow-logo-transparent.png" alt="StackOverflow"></img></a>
+							<IconGroup />
 
 						</div>
 					</div>
