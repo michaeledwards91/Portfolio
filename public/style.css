@@ -93,6 +93,13 @@ input[type=text]:focus:not([readonly])+label {
 .input-field .prefix.active {
     color: white;
 }
+.aboutP {
+    color: black;
+    line-height: 40px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
 /*Media Queries*/
 /*Tiny screens*/
 
@@ -375,5 +382,9 @@ input[type=text]:focus:not([readonly])+label {
     .skillsIcon {
         width: 100px;
         height: 100px;
+    }
+    #hi {
+        letter-spacing: -2px;
+        font-weight: 700;
     }
 }

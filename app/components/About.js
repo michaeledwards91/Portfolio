@@ -17,19 +17,18 @@ var About = React.createClass({
 						{/*Content*/}
 						<div className="col s12 m10 push-m1">
 							<img className="circle left" src="./images/meface2.png" id="meFaceImg"></img>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec enim at lorem convallis porta vel lacinia velit. Phasellus semper porttitor mattis. In ut dui vulputate, tempor diam eu, aliquet tellus. Integer faucibus sem turpis. Phasellus non bibendum ligula, a pulvinar sapien. Integer fermentum ornare lacus, non lacinia nisi aliquam auctor. Fusce augue nunc, laoreet ut sem at, bibendum mollis ex. Suspendisse lorem diam, iaculis id augue id, tempus imperdiet massa. Aliquam erat volutpat.</p>
-							<p>
-
-								Nulla facilisis lorem eget feugiat porta. Nulla congue id enim eget interdum. Donec fringilla risus at elit tempus convallis. Sed tincidunt massa eu dapibus pharetra. Curabitur vestibulum nibh ut nulla malesuada, quis accumsan quam lobortis. Phasellus vitae turpis id dolor elementum tincidunt at eu erat. Praesent sed tellus vestibulum, dignissim felis eu, mollis lectus. Morbi faucibus blandit mattis. Vivamus et pharetra felis, id tincidunt augue.</p>
+							<h3 id="hi">Hi, I'm Michael.</h3>
+							<p className="aboutP">As a person whose hobbies have always involved computer screens, it was only natural for me to develop a passion for web development. In October of 2016, I decided to turn my passion into a career and enrolled in UT Austin's Coding Bootcamp. I love the feeling of overcoming the challenges of development and plan to keep learning and improving as a developer for many years!</p>
 
 							<SkillsGroup />
+
 						</div>
 
 					</div>
 				</div>
 
 				<Footer />
-				
+
 			</div>
 		);
 	}
