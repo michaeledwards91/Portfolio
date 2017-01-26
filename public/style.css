@@ -304,7 +304,7 @@ input[type=text]:focus:not([readonly])+label {
         justify-content: space-around;
     }
     .contactIcon {
-        margin-top: 85%;
+        margin-top: 30%;
         width: 90px;
         height: 90px;
     }
@@ -315,6 +315,48 @@ input[type=text]:focus:not([readonly])+label {
         width: 91%;
         position: relative;
         left: 8%;
+    }
+    #formWrapper {
+        margin-bottom: 10%;
+    }
+    .aboutContainer {
+        padding-top: 5%;
+    }
+    #meFaceImg {
+        width: 200px;
+        height: 200px;
+        margin-right: 3%;
+    }
+    .skillsIcon {
+        width: 110px;
+        height: 110px;
+        padding: 2px;
+    }
+    #hi {
+        letter-spacing: -2px;
+        font-weight: 700;
+        clear: both;
+    }
+    .skillsGroupContainer {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #skillsH3 {
+        font-weight: 700;
+    }
+    .input-field .prefix ~ textarea {
+        min-height: 150px;
+        font-size: 20px;
+    }
+    .aboutCol {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .skillsIconsWrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
     }
 }
 /*Large Screens*/

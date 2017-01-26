@@ -43,15 +43,6 @@ var Contact = React.createClass({
 
 						</div>
 					</div>
-					{/*
-					<div className="row">
-						<div className="col s12 m10 push-m1">
-
-							<IconGroup />
-
-						</div>
-					</div>
-					*/}
 				</div>
 
 				<Footer />
