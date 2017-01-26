@@ -373,7 +373,7 @@ input[type=text]:focus:not([readonly])+label {
         padding-bottom: 15%;
     }
     .skillsIconsWrapper {
-        width: 825px;
+        width: 100%;
     }
     .contactIcon {
         width: 70px;
@@ -381,6 +381,12 @@ input[type=text]:focus:not([readonly])+label {
     }
     #formWrapper {
         margin-bottom: 15%;
+    }
+    .aboutCol {
+        display: initial;
+    }
+    #hi {
+        clear: none;
     }
 }
 /*Larger Screens*/
