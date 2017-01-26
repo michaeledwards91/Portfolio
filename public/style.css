@@ -372,6 +372,16 @@ input[type=text]:focus:not([readonly])+label {
     .cardRevealP {
         padding-bottom: 15%;
     }
+    .skillsIconsWrapper {
+        width: 825px;
+    }
+    .contactIcon {
+        width: 70px;
+        height: 70px;
+    }
+    #formWrapper {
+        margin-bottom: 15%;
+    }
 }
 /*Larger Screens*/
 

@@ -12,7 +12,7 @@ var Footer = React.createClass({
 				<footer className="page-footer">
 					<div className="container">
 						<div className="row footerRow">
-							<div className="col s12 l4 push-l4">
+							<div className="col s12 l6 push-l3">
 								<IconGroup />
 							</div>
 						</div>
