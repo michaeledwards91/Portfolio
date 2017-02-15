@@ -15,4 +15,6 @@ $(document).ready(function() {
 		Materialize.toast("Thanks for contacting me!", 4000);
 	});
 
+	$("#indexH1").textillate( {in: { effect: 'rollIn' } } );
+
 });
