@@ -10,6 +10,7 @@ $(document).ready(function() {
 	$(document).on("click", "#messageLabel", function() {
 		$("#messageInput").focus();
 	});
+	//End of label clicks
 
 	//Toast to notify user of successful email send
 	$(document).on("click", "#submitBtn", function() {
