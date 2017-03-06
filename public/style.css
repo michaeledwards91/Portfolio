@@ -102,6 +102,14 @@ input[type=text]:focus:not([readonly])+label {
     font-weight: 600;
     letter-spacing: -1px;
 }
+p.aboutP a {
+    color: #008C9E;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+p.aboutP a:hover {
+    color: #00DFFC;
+}
 .footerRow {
     margin-bottom: 0px;
 }
